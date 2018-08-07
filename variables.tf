@@ -8,7 +8,7 @@ variable "location" {
 
 variable "tags" {
   type        = "map"
-  default     = {}
+  default     = {env="prod"}
   description = "Any tags which should be assigned to the resources in this example"
 }
 
