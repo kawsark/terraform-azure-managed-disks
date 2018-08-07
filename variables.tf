@@ -8,11 +8,11 @@ variable "location" {
 
 variable "tags" {
   type        = "map"
-  default     = {env="prod"}
+  default     = {env="dev"}
   description = "Any tags which should be assigned to the resources in this example"
 }
 
 variable "number_of_disks" {
   description = "The number of Data Disks which should be attached"
-  default     = 2
+  default     = 1
 }
