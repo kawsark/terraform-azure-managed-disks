@@ -14,5 +14,5 @@ variable "tags" {
 
 variable "number_of_disks" {
   description = "The number of Data Disks which should be attached"
-  default     = 2
+  default     = 3
 }
