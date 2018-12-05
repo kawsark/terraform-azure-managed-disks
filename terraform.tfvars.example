@@ -1,0 +1,6 @@
+prefix = "kawsar-120518-demo"
+location = "Central US"
+number_of_disks=1
+tags = { env = "demo" 
+       	 owner = "kawsar@hashicorp.com" 
+	 ttl = "48h" }
